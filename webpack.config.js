@@ -1,7 +1,7 @@
 const path = require('node:path');
 
 module.exports = {
-    entry: './src/validator.js',
+    entry: './src/teamGenerator.js',
     output: { path: path.resolve(__dirname, 'dist'), },
     module: {
         rules: [
